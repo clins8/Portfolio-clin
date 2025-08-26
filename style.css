@@ -727,7 +727,7 @@ section {
 }
 
 .education-card {
-    background: black;
+    background: white;
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
@@ -762,7 +762,7 @@ section {
 }
 
 .education-institution {
-    color: var(--primary-color);
+    color: black;
     font-weight: 500;
     margin-bottom: 1rem;
 }
