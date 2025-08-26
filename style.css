@@ -727,7 +727,7 @@ section {
 }
 
 .education-card {
-    background: white;
+    background: black;
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
