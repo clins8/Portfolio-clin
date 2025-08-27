@@ -776,19 +776,19 @@ section {
 }
 
 .gpa-label {
-    color: var(--text-secondary);
+    color: white;
 }
 
 .gpa-value {
     font-weight: 600;
     color: var(--primary-color);
-    background: var(--bg-secondary);
+    background: white;
     padding: 0.25rem 0.75rem;
     border-radius: 0.25rem;
 }
 
 .education-description {
-    color: var(--text-secondary);
+    color: white;
     line-height: 1.6;
 }
 
