@@ -727,16 +727,18 @@ section {
 }
 
 .education-card {
-    background: white;
+    background: #1a1a2e; /* dark navy for space theme */
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
     transition: var(--transition);
+    color: white; /* make text inside visible */
 }
 
 .education-card:hover {
     transform: translateX(0.5rem);
     box-shadow: var(--shadow-lg);
+    background: #232946; /* slightly lighter on hover */
 }
 
 .education-header {
@@ -749,20 +751,19 @@ section {
 .education-title {
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--text-primary);
+    color: #ffd700; /* space gold for headings */
 }
 
 .education-duration {
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
+    background: #2a2a40;
+    color: #b0b0b0;
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.875rem;
     font-weight: 500;
 }
-
 .education-institution {
-    color: black;
+    color: #e0e0e0; /* light gray so visible */
     font-weight: 500;
     margin-bottom: 1rem;
 }
